@@ -1,5 +1,5 @@
 import signal
-from ezlang import EzLang
+from ezlang import NativeCode
 
 
 class InfiniteLoopError(Exception):
@@ -12,7 +12,7 @@ def timeout_handler(signum, frame):
 
 class CodeExecutor:
     def __init__(self):
-        self.transpiler = EzLang()
+        self.transpiler = NativeCode()
 
     def execute_code(self, code: str) -> str:
         # Transpile the code

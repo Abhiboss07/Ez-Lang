@@ -8,7 +8,7 @@ import '../App.css'
 function LandingPage() {
     const navigate = useNavigate();
 
-    const exampleCode = `// Fibonacci Series in EzLang 🚀
+    const exampleCode = `// Fibonacci Series in NativeCode 🚀
 manlo n = 10        // Number of terms
 manlo a = 0         // First number
 manlo b = 1         // Second number
@@ -29,10 +29,10 @@ likho("🎉 Series complete!")`;
                 <nav className="navbar">
                     <div className="navbar-brand">
                         <img src="/assets/ezlang-bg-dark.png" alt={"logo"} className="logo"/>
-                        <div className="logo">EzLang</div>
+                        <div className="logo">NativeCode</div>
                     </div>
                     <button className="try-button" onClick={() => navigate("/editor")}>
-                        Try EzLang
+                        Try NativeCode
                     </button>
                 </nav>
 
@@ -40,7 +40,7 @@ likho("🎉 Series complete!")`;
                     <div className="hero-content">
                         <h1>Programming Made Easy <br/>in Your Language</h1>
                         <p className="subtitle">
-                            Write code in natural language syntax. EzLang transpiles to Python, making programming
+                            Write code in natural language syntax. NativeCode transpiles to Python, making programming
                             more accessible.
                         </p>
                         <div className="cta-buttons">
@@ -93,7 +93,7 @@ likho("🎉 Series complete!")`;
                 </main>
 
                 <section className="features">
-                    <h2>Why EzLang?</h2>
+                    <h2>Why NativeCode?</h2>
                     <div className="feature-grid">
                         <div className="feature-card">
                             <div className="feature-icon">🌍</div>

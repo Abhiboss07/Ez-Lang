@@ -1,6 +1,6 @@
 import sys
 
-from ezlang import EzLang
+from ezlang import NativeCode
 
 
 def main():
@@ -17,7 +17,7 @@ def main():
         with open(input_file, 'r') as f:
             source = f.read()
 
-        transpiler = EzLang()
+        transpiler = NativeCode()
         python_code = transpiler.transpile(source)
 
         # Execute the transpiled code

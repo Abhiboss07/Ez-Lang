@@ -26,7 +26,7 @@ def handle_print_statements(line):
     return line
 
 
-class EzLang:
+class NativeCode:
     def __init__(self):
         self.keyword_mapping = {
             'manlo': '',  # Variable assignment

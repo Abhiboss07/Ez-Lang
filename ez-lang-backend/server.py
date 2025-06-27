@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import json
 
 from CodeExecutor import InfiniteLoopError, CodeExecutor
-from ezlang import EzLang
+from ezlang import NativeCode
 import logging
 
 # Set up logging

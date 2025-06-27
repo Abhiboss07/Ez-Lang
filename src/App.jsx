@@ -21,7 +21,7 @@ function App() {
                         borderRadius: '5px'
                     }}
                 >
-                    View on GitHub
+                    View NativeCode on GitHub
                 </a>
                 <Routes>
                     <Route path="/" element={<LandingPage/>}/>

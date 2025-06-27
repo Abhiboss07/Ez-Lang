@@ -1,9 +1,9 @@
-# Ez-Lang 🇮🇳💻
+# NativeCode 🇮🇳💻
 
 ## Overview
-Ez-Lang is a toy programming language that transpiles Hindi-syntax code to Python, making programming more accessible and enjoyable experience.
+NativeCode is a toy programming language that transpiles Hindi-syntax code to Python, making programming more accessible and enjoyable experience.
 
-***The project features a website with an interactive playground, enabling users to write and test Ez-Lang code directly in their browser.***
+***The project features a website with an interactive playground, enabling users to write and test NativeCode directly in their browser.***
 
 ## 🌟 Language Features
 
@@ -113,7 +113,7 @@ nahi_to
 - Online Playground Available
 
 ## 🌐 Playground
-Interactive testing at https://ezlang-beta.vercel.app/
+Interactive testing at https://nativecode-beta.vercel.app/
 
 ## 🤝 Contributions
 
