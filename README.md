@@ -113,7 +113,7 @@ nahi_to
 - Online Playground Available
 
 ## 🌐 Playground
-Interactive testing at https://nativecode-beta.vercel.app/
+Interactive testing at [https://nativecode-beta.vercel.app/](https://native-code.vercel.app/)
 
 ## 🤝 Contributions
 
